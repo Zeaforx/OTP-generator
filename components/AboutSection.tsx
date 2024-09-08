@@ -64,8 +64,8 @@ const AboutSection = () => {
                         About Me
                     </h2>
                     <p className="text-base lg:text-lg">
-                        Greetings! I&aposm Caleb, a dedicated Web developer .
-                        I&aposve cultivated a passion for creating apps,
+                        Greetings! I&apos;m Caleb, a dedicated Web developer .
+                        I&apos;ve cultivated a passion for creating apps,
                         constantly seeking opportunities to learn and grow. My
                         journey has led me through multiple Projects, or
                         Learning Experiences, shaping me into a creative
@@ -73,9 +73,9 @@ const AboutSection = () => {
                         in frontend and backend, I bring a unique blend of
                         creativity and technical expertise to every project. I
                         believe in the power of collaboration, and when you
-                        choose to work with me, you&aposre not just getting a
+                        choose to work with me, you&apos;re not just getting a
                         web developer, but a dedicated partner committed to
-                        bringing your vision to life. Let&aposs connect, explore
+                        bringing your vision to life. Let&apos;s connect, explore
                         my portfolio, and embark on a journey to create
                         something amazing together!
                     </p>
