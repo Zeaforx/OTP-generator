@@ -64,19 +64,20 @@ const AboutSection = () => {
                         About Me
                     </h2>
                     <p className="text-base lg:text-lg">
-                        Greetings! I'm Caleb, a dedicated Web developer . I've
-                        cultivated a passion for creating apps, constantly
-                        seeking opportunities to learn and grow. My journey has
-                        led me through multiple Projects, or Learning
-                        Experiences, shaping me into a creative thinker, problem
-                        solver and professional. Specializing in frontend and
-                        backend, I bring a unique blend of creativity and
-                        technical expertise to every project. I believe in the
-                        power of collaboration, and when you choose to work with
-                        me, you're not just getting a web developer, but a
-                        dedicated partner committed to bringing your vision to
-                        life. Let's connect, explore my portfolio, and embark on
-                        a journey to create something amazing together!
+                        Greetings! I&aposm Caleb, a dedicated Web developer .
+                        I&aposve cultivated a passion for creating apps,
+                        constantly seeking opportunities to learn and grow. My
+                        journey has led me through multiple Projects, or
+                        Learning Experiences, shaping me into a creative
+                        thinker, problem solver and professional. Specializing
+                        in frontend and backend, I bring a unique blend of
+                        creativity and technical expertise to every project. I
+                        believe in the power of collaboration, and when you
+                        choose to work with me, you&aposre not just getting a
+                        web developer, but a dedicated partner committed to
+                        bringing your vision to life. Let&aposs connect, explore
+                        my portfolio, and embark on a journey to create
+                        something amazing together!
                     </p>
                 </div>
             </div>
