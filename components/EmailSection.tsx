@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { ChangeEvent } from "react";
 // import GithubIcon from "../../../public/github-icon.svg";
 // import "/prop.jpg from" "../../../public/linkedin-icon.svg";
 import Link from "next/link";
@@ -34,7 +34,16 @@ const EmailSection = () => {
         subject: "",
     });
 
-    function handleChange(event) {
+    function handleChange(event: ChangeEvent<HTMLInputElement>) {
+        setForm((prevform) => {
+            return {
+                ...prevform,
+                [event.target.name]: event.target.value,
+            };
+        });
+        console.log(event.target.value);
+    }
+    function handletextChange(event: ChangeEvent<HTMLTextAreaElement>) {
         setForm((prevform) => {
             return {
                 ...prevform,
@@ -44,14 +53,14 @@ const EmailSection = () => {
         console.log(event.target.value);
     }
 
-    async function handleSubmit(event) {
+    async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
 
         await setDoc(doc(db, "DigitalHubContactForm", form.email), {
             // name: form.name,
             email: form.email,
             message: form.message,
-            inquiry: form.subjectd,
+            inquiry: form.subject,
         });
     }
     return (
@@ -62,7 +71,7 @@ const EmailSection = () => {
             <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
             <div className="z-10">
                 <h5 className="text-xl font-bold text-white my-2">
-                    Let`&apos;s Meet
+                    Let&apos;s Meet
                 </h5>
                 <p className="text-[#ADB7BE] mb-4 max-w-md">
                     {" "}
@@ -126,7 +135,7 @@ const EmailSection = () => {
                             Message
                         </label>
                         <textarea
-                            onChange={handleChange}
+                            onChange={handletextChange}
                             value={form.message}
                             name="message"
                             id="message"
