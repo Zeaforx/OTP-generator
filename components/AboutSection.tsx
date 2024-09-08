@@ -44,7 +44,7 @@ const AboutSection = () => {
     const [tab, setTab] = useState("skills");
     const [isPending, startTransition] = useTransition();
 
-    const handleTabChange = (id) => {
+    const handleTabChange = (id: React.SetStateAction<string>) => {
         startTransition(() => {
             setTab(id);
         });
