@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide {
+    opacity: 0;
+}
+
+nav,
+.border-color {
+    border-bottom-color: rgb(26, 22, 22);
+}
+.dddiv {
+    background-size: auto;
+}
