@@ -74,7 +74,6 @@ const EmailSection = () => {
                     Let's Meet Let's Meet
                 </h5>
                 <p className="text-[#ADB7BE] mb-4 max-w-md">
-                    {" "}
                     We are currently looking for new opportunities, our inbox
                     are always open. We'll try my best to get back to you!
                 </p>
