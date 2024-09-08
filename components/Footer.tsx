@@ -7,7 +7,12 @@ const Footer = () => {
             <div className="container p-12 flex justify-between">
                 <span>
                     {" "}
-                    <Image src="/adhp-1.png" width={50} height={50} />{" "}
+                    <Image
+                        alt="idk"
+                        src="/adhp-1.png"
+                        width={50}
+                        height={50}
+                    />{" "}
                 </span>
                 <p className="text-slate-600">All rights reserved.</p>
             </div>
